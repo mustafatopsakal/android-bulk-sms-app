@@ -1,0 +1,13 @@
+Toplu SMS 1-    Giriþ paneli
+		Ýsim parametresi,ileri tarihli gönderim.
+		Oturumu kapat seçeneði eklendi.
+                Rehber eklendi.
+                Gelen Kutusu eklendi.
+
+Toplu SMS 2-    Numarayla rapor sorgulama eklendi.
+
+Toplu SMS 3-    Paket raporu eklendi.
+                Paket raporu detay eklendi.  
+                Kara liste, þifremi unuttum eklendi.
+
+ABONE NO: 908505545885

@@ -1,0 +1,25 @@
+---TOPLU SMS UYGULAMASI---
+
+http://www.mutlucell.com.tr/api/
+https://gelecegiyazanlar.turkcell.com.tr/konu/android/egitim/android-201/logcat
+https://gelecegiyazanlar.turkcell.com.tr/konu/android/egitim/android-301/asynctask
+https://gelecegiyazanlar.turkcell.com.tr/konu/android/egitim/android-301/listview-ozellestirme
+https://gelecegiyazanlar.turkcell.com.tr/blog/relative-layout-kullanimi
+https://gelecegiyazanlar.turkcell.com.tr/blog/androidde-navigation-drawer-menusu
+https://github.com/amulyakhare/TextDrawable
+https://github.com/franlopjur/FlipCheckBox
+http://stackoverflow.com/questions/36967247/passing-data-to-custom-adapter-from-asynctask
+http://stackoverflow.com/questions/28798681/android-custom-adapter-and-asynctask-not-updating-listview
+http://stackoverflow.com/questions/22172648/contact-list-with-checkbox-to-select-for-the-group-mesage
+http://androidexample.com/Android_Session_Management_Using_SharedPreferences_-_Android_Example/index.php?view=article_discription&aid=127&aaid=147
+http://www.journaldev.com/9976/android-date-time-picker-dialog
+https://www.youtube.com/watch?v=riIiOqAgtc8
+https://design.google.com/icons/
+http://www.javahelps.com/2015/10/android-60-runtime-permission-model.html
+http://eugeneandroid.blogspot.com.tr/2014/12/android-listview-with-checkbox-custom.html
+http://www.kodlahaydi.com/java/java-collections-sorting-siralama
+https://www.mobilhanem.com/android-proguard-kullanimi-apk-guvenligi-apk-kucultme/
+https://www.youtube.com/watch?v=pgRErcgGk0s
+-------------------------------------------------------------------------------------------------------
+
+
