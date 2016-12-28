@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sendSms"
+            android:icon="@mipmap/ic_chat_black_24dp"
+            android:title="Sms Gönder" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@mipmap/ic_local_post_office_black_24dp"
+            android:title="Gelen Kutusu" />
+        <item
+            android:id="@+id/nav_reportNumber"
+            android:icon="@mipmap/ic_perm_phone_msg_black_24dp"
+            android:title="Numaradan Rapor Sorgulama" />
+        <item
+            android:id="@+id/nav_packageReport"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="Paket Raporu" />
+        <item
+            android:id="@+id/nav_blackList"
+            android:icon="@mipmap/ic_cancel_black_24dp"
+            android:title="Numara Filtreleme" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="Oturumu Kapat" />
+    </group>
+
+</menu>

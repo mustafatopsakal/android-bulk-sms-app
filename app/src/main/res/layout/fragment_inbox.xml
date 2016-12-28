@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mustafa.toplusms.FragmentInbox"
+    android:background="@color/silver">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="12"
+        android:id="@+id/etSubscriber"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Abone Numaranızı Giriniz"
+       />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibStartDate"
+        android:src="@mipmap/ic_today_black_24dp"
+        android:background="@color/silver"
+        android:layout_alignBottom="@+id/tvStartDate"
+        android:layout_alignLeft="@+id/ibEndDate"
+        android:layout_alignStart="@+id/ibEndDate" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibEndDate"
+        android:src="@mipmap/ic_insert_invitation_black_24dp"
+        android:background="@color/silver"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Başlangıç Tarihi:"
+        android:id="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/etSubscriber"
+        android:layout_alignLeft="@+id/etSubscriber"
+        android:layout_alignStart="@+id/etSubscriber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bitiş Tarihi:"
+        android:id="@+id/textView2"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/ibStartDate"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvStartDate"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvEndDate"
+        android:textColor="@color/black"
+        android:layout_above="@+id/lvMessageReport"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvMessageReport"
+        android:layout_below="@+id/ibEndDate"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15.0sp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/ibEndDate"
+        android:layout_alignEnd="@+id/ibEndDate" />
+
+</RelativeLayout>
